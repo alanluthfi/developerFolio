@@ -166,7 +166,7 @@ const workExperiences = {
     {
       role: "Machine Learning Graduates ",
       company: "Google Bangkit 2021",
-      companylogo: require("./assets/images/bangkit.jpg"),
+      companylogo: require("./assets/images/bangkit.png"),
       date: "September 2021 – July 2021",
       desc: "Led an Android app development in a capstone project, seamlessly integrating machine learning. Delivered a pioneering prototype that showcased my prowess in advanced Android development and machine learning integration."
     }
