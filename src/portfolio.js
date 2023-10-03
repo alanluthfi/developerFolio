@@ -152,6 +152,7 @@ const workExperiences = {
       date: "June 2023 – Present",
       desc: "I have undertaken an apprenticeship as part of the Generasi GIGIH program, organized by GoTo Impact Foundation, which is designed to tackle the expanding tech industry in Indonesia.",
       descBullets: [
+        "Led a Capstone Project Industrry Partner team as Back-end Engineer responsible for creating a system based on the business flow criteria provided by our industry partners.",
         "Developed a Spotify clone using React, integrating Spotify API for authentication, and enhancing UI using CSS.",
         "Crafted a Tokopedia Play Clone utilizing React for a dynamic user experience."
       ]
