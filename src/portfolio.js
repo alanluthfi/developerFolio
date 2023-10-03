@@ -25,7 +25,7 @@ const greeting = {
   subTitle:
     "A total tech enthusiast! I'm all about crafting awesome web apps using JavaScript, React.js, and Node.js. But that's not all – I've got a soft spot for game development with Unity, creating immersive experiences. Oh, and did I mention I dabble in machine learning too? Join me as I explore the endless possibilities of programming and innovation!",
   resumeLink:
-    "https://drive.google.com/file/d/1GrRqvCqMrWptfIHpcfmGMXf_De8fSK38/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/19AKLdIpJGzZvyQE8zqoCKNV66tuweQJy/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
