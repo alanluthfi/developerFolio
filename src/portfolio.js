@@ -25,7 +25,7 @@ const greeting = {
   subTitle:
     "A total tech enthusiast! I'm all about crafting awesome web apps using JavaScript, React.js, and Node.js. But that's not all – I've got a soft spot for game development with Unity, creating immersive experiences. Oh, and did I mention I dabble in machine learning too? Join me as I explore the endless possibilities of programming and innovation!",
   resumeLink:
-    "https://drive.google.com/file/d/19AKLdIpJGzZvyQE8zqoCKNV66tuweQJy/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1AvX3wH0s9GSyIPWpibOt2HgEhvcBvBM4/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -52,9 +52,7 @@ const skillsSection = {
   skills: [
     emoji("⚡ Develop Front end / User Interfaces for your web applications"),
     emoji("⚡ Web applications in MERN stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Youtube embed/ Spotify auth or search fetch"
-    )
+    emoji("⚡ Web applications using ASP .NET Core Framework")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -112,9 +110,16 @@ const educationInfo = {
       subHeader: "Bachelor's degree in Computer Engineering",
       duration: "August 2018 - March 2023",
       desc: "GPA 3.38 out of 4.00, published 1 paper.",
+      http: "//dx.doi.org/10.12962/j23373539.v11i3.92620s",
       descBullets: [
-        "Paper can be found in the following link http://dx.doi.org/10.12962/j23373539.v11i3.92620"
+        "Paper can be found in the following link http//dx.doi.org/10.12962/j23373539.v11i3.92620s"
       ]
+      // footerLink: [
+      //   {
+      //     name: "Visit Published Paper",
+      //     url: "http://dx.doi.org/10.12962/j23373539.v11i3.92620s"
+      //   }
+      // ]
     }
   ]
 };
@@ -146,10 +151,17 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Junior Advisory Technology and Development",
+      company: "SSC Project Pertamina (Persero)",
+      companylogo: require("./assets/images/pertamina.jpg"),
+      date: "November 2023 – Present",
+      desc: "Led an Android app development in a capstone project, seamlessly integrating machine learning. Delivered a pioneering prototype that showcased my prowess in advanced Android development and machine learning integration."
+    },
+    {
       role: "Full Stack Engineer ",
       company: "Generasi GIGIH ",
       companylogo: require("./assets/images/goto.png"),
-      date: "June 2023 – Present",
+      date: "June 2023 – December 2023",
       desc: "I have undertaken an apprenticeship as part of the Generasi GIGIH program, organized by GoTo Impact Foundation, which is designed to tackle the expanding tech industry in Indonesia.",
       descBullets: [
         "Led a Capstone Project Industrry Partner team as Back-end Engineer responsible for creating a system based on the business flow criteria provided by our industry partners.",
@@ -168,7 +180,7 @@ const workExperiences = {
       role: "Machine Learning Graduates ",
       company: "Google Bangkit 2021",
       companylogo: require("./assets/images/bangkit.png"),
-      date: "September 2021 – July 2021",
+      date: "February 2021 – July 2021",
       desc: "Led an Android app development in a capstone project, seamlessly integrating machine learning. Delivered a pioneering prototype that showcased my prowess in advanced Android development and machine learning integration."
     }
   ]
